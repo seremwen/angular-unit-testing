@@ -1,27 +1,43 @@
-# AngularUnitTesting
+Sure! Here is the `README.md` file with contents up to the "Running Tests" section:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+```markdown
+# Angular Unit Testing Example
 
-## Development server
+This repository contains an example of unit testing in Angular 16 using Jasmine and Karma. It includes a simple `CalculatorService` and a `CalculatorComponent` to demonstrate how to write and run unit tests for services and components.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Prerequisites
 
-## Code scaffolding
+Before you begin, ensure you have met the following requirements:
+- You have installed [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- You have installed [Angular CLI](https://angular.io/cli)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+To get a local copy up and running follow these simple steps.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. Clone the repo
+   ```bash
+   git clone https://github.com/seremwen/angular-unit-testing.git
+   ```
+2. Navigate to the project directory
+   ```bash
+   cd angular-unit-testing
+   ```
+3. Install NPM packages
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running Tests
 
-## Running end-to-end tests
+To run the tests, use the following command:
+```bash
+ng test
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Karma will open a browser window and display the test results.
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This version of the `README.md` provides a brief overview of the project, installation steps, and instructions on how to run the tests.
